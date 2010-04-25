@@ -1,9 +1,9 @@
 ---- config
 # Basic config options.
 title: Vroom!
-indent: 1
-height: 9
-width: 31
+indent: 2
+height: 10
+width: 36
 skip: 0
 
 ---- 
@@ -11,13 +11,12 @@ perlbrew!
 
 Kang-min Liu
 gugod@gugod.org
-----
+---- center
 大事
-----
-Perl
-5.12.0
+---- center
+Perl 5.12.0
 is out
-----
+---- center
 New Syntax
 New Operators
 ----
@@ -25,18 +24,16 @@ given($x) {
   when(42)    { ... }
   when(/foo/) { ... }
 }
-----
+---- center
 ☺ AWESOME ☻
-----
-LET's
-USE
-IT
-----
+---- center
+LET's USE IT
+---- center
 Right Now
-----
+---- center
 Code
 Update
-----
+---- center
 Days
 latter
 ----
@@ -44,9 +41,9 @@ Bug report:
 
   Your program does'nt run
   on older perls.
-----
+---- center
 $@%/(?!:\*)?/
-----
+---- center
 ⍨ 
 ----
 perl is
@@ -56,24 +53,23 @@ compatible program
 /usr/bin/perl
 can
 suck
-----
-sometimes
-----
+
+          ...sometimes
+---- center
 vendor
-----
+---- center
 vendor
 function
-----
+---- center
 vendor
 patches
-----
+---- center
 Well
-----
+---- center
 To make
-perl
+perl developing
 life easier
-----
-use
+---- center
 perlbrew
 ----
 perlbrew
@@ -82,7 +78,7 @@ multiple versions of perl
 in your...
 ---- sh
 $HOME
-----
+---- center
 INSTALL
 ---- sh
 wget http://xrl.us/perlbrew
@@ -97,27 +93,25 @@ perlbrew install perl-5.10.0
 perlbrew install perl-5.8.8
 ---- sh
 perlbrew install perl-5.13.0
-----
+---- sh
 which perl
 ---- sh
 $HOME/perl5/perlbrew/bin/perl
 ----
 perl
-in
-$HOME
+in $HOME
 ----
 perl + cpan modules
-in
-$HOME
+in $HOME
 ----
 Fork it:
 
 github.com/gugod/App-perlbrew
-----
+---- center
 OSDC 黑客鬆
 明天
 蛙咖啡
-----
+---- center
 See you there
-----
+---- center
 ☺
