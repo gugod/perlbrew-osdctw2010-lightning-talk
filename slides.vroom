@@ -1,15 +1,16 @@
 ---- config
 # Basic config options.
 title: Vroom!
-indent: 5
-height: 11
-width: 52
+indent: 1
+height: 9
+width: 31
 skip: 0
 
 ---- 
 perlbrew!
 
-by Kang-min Liu <gugod@gugod.org>
+Kang-min Liu
+gugod@gugod.org
 ----
 大事
 ----
@@ -43,10 +44,10 @@ Bug report:
 
   Your program does'nt run
   on older perls.
----- perl
+----
 $@%/(?!:\*)?/
 ----
-:(
+⍨ 
 ----
 perl is
 a really backward-
@@ -87,7 +88,7 @@ INSTALL
 wget http://xrl.us/perlbrew
 chmod +x perlbrew
 ./perlbrew install
-# Follow the instruction on screen
+# Follow the instruction
 ---- sh
 $HOME/perl5/perlbrew
 ---- sh
@@ -111,7 +112,7 @@ $HOME
 ----
 Fork it:
 
-http://github.com/gugod/App-perlbrew
+github.com/gugod/App-perlbrew
 ----
 OSDC 黑客鬆
 明天
