@@ -18,11 +18,10 @@ Perl
 is out
 ----
 New Syntax
-----
 New Operators
 ----
 given($x) {
-  when(42) { ... }
+  when(42)    { ... }
   when(/foo/) { ... }
 }
 ----
@@ -31,6 +30,11 @@ given($x) {
 LET's
 USE
 IT
+----
+Right Now
+----
+Code
+Update
 ----
 Days
 latter
@@ -48,28 +52,39 @@ perl is
 a really backward-
 compatible program
 ----
-→ New
-----
-⍨ 
-----
 /usr/bin/perl
 can
 suck
 ----
-Well
-not really...
+sometimes
 ----
-But
-to make life easier
+vendor
+----
+vendor
+function
+----
+vendor
+patches
+----
+Well
+----
+To make
+perl
+life easier
 ----
 use
 perlbrew
+----
+perlbrew
+manages
+multiple versions of perl
+in your...
 ---- sh
 $HOME
 ----
 INSTALL
 ---- sh
-wget http://xrl.to/perlbrew
+wget http://xrl.us/perlbrew
 chmod +x perlbrew
 ./perlbrew install
 # Follow the instruction on screen
@@ -80,7 +95,7 @@ perlbrew install perl-5.12.0
 perlbrew install perl-5.10.0
 perlbrew install perl-5.8.8
 ---- sh
-perlbrew switch perl-5.12.0
+perlbrew install perl-5.13.0
 ----
 which perl
 ---- sh
@@ -103,4 +118,5 @@ OSDC 黑客鬆
 蛙咖啡
 ----
 See you there
-
+----
+☺
